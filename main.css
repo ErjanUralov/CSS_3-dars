@@ -1,0 +1,127 @@
+body{
+    background-color: #87ceeb;
+    margin: 0;
+    padding: 0;
+}
+.navbat{
+    background-color: #ffffff;
+}
+.navbat-menu{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.navbat-item{
+    display: inline-block;
+    padding: 25px 10px;
+}
+ .navbat-item a{
+    color: #808080;
+    text-decoration: none;
+}
+ .flex-box{
+     width: 1200px;
+     margin: 0 auto;
+     display: flex;
+ }
+ .flex-item{
+     padding: 16px 10px;
+     display: inline-block;
+ }
+.flex-item p{
+    padding: 16px;
+    background-color: white;
+}
+.navbat-item:hover a{
+    color: blue;
+}
+.navbat-item:hover a{
+    color: blue;
+}
+.wrat{
+    width: 1200px;
+    background-color: white;
+    margin: 10px auto;
+    padding: 15px;
+    box-sizing: border-box;
+    z-index: 1;
+}
+.btn{
+    display: inline-block;
+    padding: 16px 24px;
+    text-decoration: none;
+    color: white;
+    background-color: #00bb9c;
+    border-radius: 8px;
+    border-bottom: 1px solid #00bb9c;
+    transition: all 2s ease-in-out;
+}
+.btn:active{
+    margin-top: 3px;
+    border-bottom-width: 3px;
+}
+.btn:focus{
+    margin-top: 3px;
+    border-bottom-width: 3px;
+}
+.btn:hover{
+    border-radius: 28px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 200px;
+}
+.sticky{
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.fix{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+    color: white;
+    position: fixed;
+    right: 20px;
+    bottom: 50px;
+    background-image: url("../rasmlar/down-arrow.svg");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    transform: rotate(180deg);
+}
+.flex-item{
+    position: relative;
+}
+.badge{
+    background-color: #00bb9c;
+    color: white;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 20px;
+    padding: 0 5px;
+    position: absolute;
+    top: 32px;
+    right: 10px;
+}
+.bage{
+    background-color: grey;
+    color: white;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 20px;
+    padding: 0 5px;
+    position: absolute;
+    left: 10px;
+    top: 32px;
+}
+.flex-item{
+    position: relative;
+}
+
+
+
